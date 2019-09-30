@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Login</string>
     <string name="splash_text">Welcome</string>
+    <string name="login_text">Login</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="enter_email">Enter your Email</string>
+    <string name="enter_password">Enter your Password</string>
 </resources>

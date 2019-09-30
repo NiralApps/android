@@ -1,20 +1,22 @@
 package com.example.login.splash
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.login.MainActivity
 import com.example.login.R
+import com.example.login.Welcome.LoginActivity
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : Activity() {
     private var mDelayHandler: Handler? = null
     private val SPLASH_DELAY: Long = 3000 //3 seconds
 
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
 
-            val intent = Intent(applicationContext, MainActivity::class.java)
+            val intent = Intent(applicationContext, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
