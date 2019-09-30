@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import com.example.login.MainActivity
 import com.example.login.R
+import com.example.login.Welcome.LoginActivity
 
 class SplashActivity : Activity() {
     private var mDelayHandler: Handler? = null
@@ -15,7 +16,7 @@ class SplashActivity : Activity() {
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
 
-            val intent = Intent(applicationContext, MainActivity::class.java)
+            val intent = Intent(applicationContext, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
