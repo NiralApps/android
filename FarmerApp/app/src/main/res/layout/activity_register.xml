@@ -8,13 +8,11 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center">
-
         <EditText
             android:id="@+id/name"
             android:layout_width="250dp"
@@ -22,11 +20,9 @@
             android:layout_gravity="center"
             android:background="@drawable/textinputborder"
             android:gravity="center"
-
             android:hint="NAME"
             android:textColor="@color/black"
             android:textColorHint="@color/black" />
-
         <EditText
             android:id="@+id/emailid"
             android:layout_marginTop="20dp"
@@ -35,11 +31,9 @@
             android:layout_gravity="center"
             android:background="@drawable/textinputborder"
             android:gravity="center"
-
             android:hint="EMAIL ID"
             android:textColor="@color/black"
             android:textColorHint="@color/black" />
-
         <Button
             android:id="@+id/address"
             android:layout_width="250dp"
@@ -54,7 +48,6 @@
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:textSize="18sp" />
-
         <EditText
             android:id="@+id/phonenumber"
             android:layout_marginTop="20dp"
@@ -66,7 +59,6 @@
             android:hint="PHONE NUMBER"
             android:textColor="@color/black"
             android:textColorHint="@color/black" />
-
         <EditText
             android:layout_marginTop="20dp"
             android:id="@+id/OTP"
@@ -75,35 +67,28 @@
             android:layout_gravity="center"
             android:background="@drawable/textinputborder"
             android:gravity="center"
-
             android:hint="ENTER YOUR OTP "
             android:textColor="@color/black"
             android:textColorHint="@color/black" />
-
         <TextView
             android:id="@+id/resendOTP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginTop="20dp"
-
             android:gravity="right"
-
             android:hint="Resend OTP  "
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
-
-
     <LinearLayout
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
-
         <Button
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
@@ -114,11 +99,9 @@
             android:layout_gravity="left"
             android:background="@drawable/textinputborder"
             android:gravity="center"
-
             android:hint="SEND OTP "
             android:textColor="@color/black"
             android:textColorHint="@color/black"/>
-
         <Button
             android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
@@ -129,10 +112,8 @@
             android:layout_gravity="left"
             android:background="@drawable/textinputborder"
             android:gravity="center"
-
             android:hint="LOGIN "
             android:textColor="@color/black"
             android:textColorHint="@color/black"/>
     </LinearLayout>
-
 </LinearLayout>
