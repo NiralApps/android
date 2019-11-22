@@ -1,26 +1,21 @@
 package com.example.farmerapp;
 
-import android.app.Notification;
 import android.os.Bundle;
 
-import com.example.farmerapp.ui.Categories;
+import com.example.farmerapp.ui.CategoriesFragment;
+import com.example.farmerapp.ui.CustomerCareFragment;
+import com.example.farmerapp.ui.FAQFragment;
 import com.example.farmerapp.ui.HomeFragment;
 import com.example.farmerapp.ui.MyAccountFragment;
 import com.example.farmerapp.ui.NotificationFragment;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -89,16 +84,16 @@ public class HomeActivity extends AppCompatActivity
                 fragment = new MyAccountFragment();
                 break;
             case R.id.nav_categories:
-                fragment = new Categories();
+                fragment = new CategoriesFragment();
                 break;
             case R.id.nav_notification:
                 fragment = new NotificationFragment();
                 break;
             case R.id.nav_customer_care:
-                fragment = new Categories();
+                fragment = new CustomerCareFragment();
                 break;
             case R.id.nav_faq:
-                fragment = new Categories();
+                fragment = new FAQFragment();
                 break;
         }
         //replacing the fragment

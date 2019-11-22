@@ -21,7 +21,7 @@ import com.example.farmerapp.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerCareFragment extends Fragment {
+public class CategoriesFragment extends Fragment {
     public static RecyclerView recyclerView;
     //a list to store all the categories
     public List<CategoriesList> categoryList;
@@ -41,27 +41,19 @@ public class CustomerCareFragment extends Fragment {
         categoryList.add(
                 new CategoriesList(
                         1,
-                        "Popular Searches"));
+                        "Vegetables"));
         categoryList.add(
                 new CategoriesList(
                         2,
-                        "User Login Issue"));
+                        "Fruits"));
         categoryList.add(
                 new CategoriesList(
                         3,
-                        "Payment Issue"));
+                        "Cereals"));
         categoryList.add(
                 new CategoriesList(
                         4,
-                        "Order Issue"));
-        categoryList.add(
-                new CategoriesList(
-                        5,
-                        "Replacement/Return Issue"));
-        categoryList.add(
-                new CategoriesList(
-                        6,
-                        "Seller Issue"));
+                        "Pulses"));
         //creating recyclerview adapter
         CategoryAdapter adapter = new CategoryAdapter(context, categoryList);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
