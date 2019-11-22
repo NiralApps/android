@@ -13,14 +13,6 @@ import android.view.ViewGroup;
 
 import com.example.farmerapp.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link MyAccountFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link MyAccountFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class MyAccountFragment  extends Fragment {
 
     @Nullable
