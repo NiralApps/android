@@ -95,6 +95,12 @@ public class HomeActivity extends AppCompatActivity
             case R.id.nav_faq:
                 fragment = new FAQFragment();
                 break;
+            case R.id.frequently_bought:
+                fragment = new FAQFragment();
+                break;
+            case R.id.my_store:
+                fragment = new FAQFragment();
+                break;
         }
         //replacing the fragment
         if (fragment != null) {

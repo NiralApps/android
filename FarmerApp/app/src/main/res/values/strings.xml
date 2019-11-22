@@ -17,6 +17,8 @@
     <string name="menu_categories">Categories</string>
     <string name="menu_notification">Notification</string>
     <string name="menu_customer_care">Customer Care</string>
+    <string name="menu_frequently_bought">Frequently Bought</string>
+    <string name="menu_my_store">My Store</string>
     <string name="menu_faq">FAQ?</string>
 
     <!-- TODO: Remove or change this placeholder text -->

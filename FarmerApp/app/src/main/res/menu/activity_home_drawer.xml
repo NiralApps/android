@@ -16,6 +16,12 @@
             android:id="@+id/nav_notification"
             android:title="@string/menu_notification" />
         <item
+            android:id="@+id/frequently_bought"
+            android:title="@string/menu_frequently_bought" />
+        <item
+            android:id="@+id/my_store"
+            android:title="@string/menu_my_store" />
+        <item
             android:id="@+id/nav_customer_care"
             android:title="@string/menu_customer_care" />
         <item
