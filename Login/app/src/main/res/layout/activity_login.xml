@@ -62,11 +62,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
                 <EditText
-                    android:id="@+id/userName"
+                    android:id="@+id/userEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:hint="@string/enter_email"
+                    android:inputType="textEmailAddress"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -74,11 +75,13 @@
                     android:layout_margin="10dp">
                 </EditText>
                 <EditText
+                    android:id="@+id/userPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:hint="@string/enter_password"
-                    app:layout_constraintTop_toBottomOf="@+id/userName"
+                    android:inputType="textPassword"
+                    app:layout_constraintTop_toBottomOf="@+id/userEmail"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:background="@drawable/border"
