@@ -55,7 +55,7 @@ public class CategoriesFragment extends Fragment {
                         4,
                         "Pulses"));
         //creating recyclerview adapter
-        CategoryAdapter adapter = new CategoryAdapter(context, categoryList);
+        CategoryAdapter adapter = new CategoryAdapter(context, categoryList, true);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         //setting adapter to recyclerview
         recyclerView.setAdapter(adapter);

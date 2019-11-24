@@ -63,7 +63,7 @@ public class CustomerCareFragment extends Fragment {
                         6,
                         "Seller Issue"));
         //creating recyclerview adapter
-        CategoryAdapter adapter = new CategoryAdapter(context, categoryList);
+        CategoryAdapter adapter = new CategoryAdapter(context, categoryList, false);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         //setting adapter to recyclerview
         recyclerView.setAdapter(adapter);

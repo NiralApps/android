@@ -13,20 +13,29 @@
             android:id="@+id/nav_categories"
             android:title="@string/menu_categories" />
         <item
-            android:id="@+id/nav_notification"
-            android:title="@string/menu_notification" />
+            android:id="@+id/nav_manage_address"
+            android:title="@string/menu_manage_address" />
         <item
-            android:id="@+id/frequently_bought"
+            android:id="@+id/nav_frequently_bought"
             android:title="@string/menu_frequently_bought" />
+<!--        <item-->
+<!--            android:id="@+id/my_store"-->
+<!--            android:title="@string/menu_my_store" />-->
         <item
-            android:id="@+id/my_store"
-            android:title="@string/menu_my_store" />
+            android:id="@+id/nav_payment_option"
+            android:title="@string/menu_payment_option" />
+        <item
+            android:id="@+id/nav_refer_and_earn"
+            android:title="@string/menu_refer_and_earn" />
         <item
             android:id="@+id/nav_customer_care"
             android:title="@string/menu_customer_care" />
         <item
             android:id="@+id/nav_faq"
             android:title="@string/menu_faq" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/menu_logout" />
     </group>
 <!--    <item android:title="Communicate">-->
 <!--        <menu>-->

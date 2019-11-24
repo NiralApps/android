@@ -7,6 +7,7 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -90,7 +91,8 @@ public class NotificationFragment extends Fragment {
                         R.drawable.bg));
         //creating recyclerview adapter
         NotificationAdapter adapter = new NotificationAdapter(context, notificationList);
-        recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
+//        recyclerView.setLayoutManager(new GridLayoutManager(context, 2));
+//        recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         //setting adapter to recyclerview
         recyclerView.setAdapter(adapter);
         return view;
