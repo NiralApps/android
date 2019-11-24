@@ -181,6 +181,8 @@ public class HomeActivity extends AppCompatActivity
                 });
         AlertDialog alert = builder.create();
         alert.show();
+        alert.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(getResources().getColor(R.color.black));
+        alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.black));
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
