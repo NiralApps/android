@@ -1,6 +1,7 @@
 package com.example.farmerapp;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.farmerapp.ui.CategoriesFragment;
@@ -165,16 +166,17 @@ public class HomeActivity extends AppCompatActivity
                 .setCancelable(false)
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
+                        Intent intent = new Intent(HomeActivity.this,
+                                LoginActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(intent);
                         finish();
-                        Toast.makeText(getApplicationContext(),"you choose yes action for alertbox",
-                                Toast.LENGTH_SHORT).show();
+
                     }
                 })
                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.cancel();
-                        Toast.makeText(getApplicationContext(),"you choose no action for alertbox",
-                                Toast.LENGTH_SHORT).show();
                     }
                 });
         AlertDialog alert = builder.create();
